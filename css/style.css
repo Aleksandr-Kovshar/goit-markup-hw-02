@@ -68,8 +68,13 @@ font-family:inherit унаследовать предка шрифт}
 }
 
 .contacts {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--secondary-color);
   text-decoration: none;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .contacts:hover,
@@ -189,6 +194,20 @@ portfolio-list p {
   letter-spacing: 0.06em;
   color: var(--main-color);
 }
-address{
-  font-style:normal
+address {
+  font-style: normal;
+}
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
 }
