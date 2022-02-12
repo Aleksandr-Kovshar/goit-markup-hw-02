@@ -68,7 +68,7 @@ font-family:inherit унаследовать предка шрифт}
 }
 
 .contacts {
-  color: var(--secondary-color);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
@@ -188,4 +188,7 @@ portfolio-list p {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
+}
+address{
+  font-style:normal
 }
